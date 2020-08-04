@@ -1,4 +1,4 @@
-AKIA4ASTEBHIVKS5ZEEODockerReact1-env-1sudo: required
+sudo: required
 language: generic
 services:
   - docker
@@ -13,7 +13,7 @@ deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
   app: docker-react1
-  env: "DockerReact1-env-1"
+  env: "DockerReact1-env"
   bucket_name: "elasticbeanstalk-us-east-1-825881790929"
   bucket_path: "docker-react" 
   on:
